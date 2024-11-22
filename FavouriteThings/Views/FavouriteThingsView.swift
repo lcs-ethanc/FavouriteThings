@@ -11,17 +11,19 @@ struct FavouriteThingsView: View {
     let providedFavThing: FavouriteThing
     var body: some View {
         NavigationStack{
-            VStack(alignment: .leading){
-                Text(favThingOne.thingName)
-                    .fontWeight(.bold)
-                    .font(.system(size: 40))
-                Text(favThingOne.thingDescription)
-                Text(favThingOne.thingImage)
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            } .navigationTitle("My Favourite Things")
+            HStack{
+                VStack(alignment: .leading){
+                    Text(providedFavThing.thingName)
+                        .fontWeight(.bold)
+                        .font(.system(size: 40))
+                    Text(providedFavThing.thingDescription)
+                }
+                Text(providedFavThing.thingImage)
+            }
+            .navigationTitle("My Favourite Things")
         }
-
-  
+        
+        
     }
 }
 
