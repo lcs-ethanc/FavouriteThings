@@ -18,8 +18,12 @@ struct FavouriteThingsView: View {
                         .font(.system(size: 40))
                     Text(providedFavThing.thingDescription)
                 }
-                Text(providedFavThing.thingImage)
-            }
+                Image(providedFavThing.thingImage)
+                    .resizable()
+                    .frame(width: 60,height: 60)
+        
+            }            .padding(.trailing,100)
+            
             .navigationTitle("My Favourite Things")
         }
         
