@@ -20,9 +20,13 @@ struct FavouriteThingsView: View {
                         .fontWeight(.bold)
                         .font(.system(size: 40))
                     Text(providedFavThing.thingDescription)
+      
                 }
-        
-            }            .padding(.trailing,100)
+                Text(providedFavThing.thingRanking)
+                    .fontWeight(.bold)
+                    .font(.system(size:60))
+                    .padding(.leading,20)
+            }            .padding(.trailing,70)
             
             .navigationTitle("My Favourite Things")
         }
