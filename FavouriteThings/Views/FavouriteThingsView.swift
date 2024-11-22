@@ -12,15 +12,15 @@ struct FavouriteThingsView: View {
     var body: some View {
         NavigationStack{
             HStack{
+                Image(providedFavThing.thingImage)
+                    .resizable()
+                    .frame(width: 60,height: 60)
                 VStack(alignment: .leading){
                     Text(providedFavThing.thingName)
                         .fontWeight(.bold)
                         .font(.system(size: 40))
                     Text(providedFavThing.thingDescription)
                 }
-                Image(providedFavThing.thingImage)
-                    .resizable()
-                    .frame(width: 60,height: 60)
         
             }            .padding(.trailing,100)
             
