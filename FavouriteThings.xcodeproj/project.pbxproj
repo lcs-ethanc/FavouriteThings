@@ -12,7 +12,7 @@
 		44045D6A2CF0C7B20078F41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44045D632CF0C7B20078F41A /* Assets.xcassets */; };
 		44045D6E2CF0C8000078F41A /* FavouriteThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44045D6D2CF0C8000078F41A /* FavouriteThingsView.swift */; };
 		44045D702CF0C80A0078F41A /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44045D6F2CF0C80A0078F41A /* FavouriteThingsListView.swift */; };
-		44045D722CF0CC500078F41A /* FavoriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44045D712CF0CC500078F41A /* FavoriteThing.swift */; };
+		445498642CF0CDD70093567A /* FavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445498632CF0CDD70093567A /* FavouriteThing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		44045D652CF0C7B20078F41A /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		44045D6D2CF0C8000078F41A /* FavouriteThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsView.swift; sourceTree = "<group>"; };
 		44045D6F2CF0C80A0078F41A /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
-		44045D712CF0CC500078F41A /* FavoriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThing.swift; sourceTree = "<group>"; };
+		445498632CF0CDD70093567A /* FavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		44045D6B2CF0C7CC0078F41A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				44045D712CF0CC500078F41A /* FavoriteThing.swift */,
+				445498632CF0CDD70093567A /* FavouriteThing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44045D722CF0CC500078F41A /* FavoriteThing.swift in Sources */,
 				44045D6E2CF0C8000078F41A /* FavouriteThingsView.swift in Sources */,
 				44045D702CF0C80A0078F41A /* FavouriteThingsListView.swift in Sources */,
+				445498642CF0CDD70093567A /* FavouriteThing.swift in Sources */,
 				44045D682CF0C7B20078F41A /* FavouriteThingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
