@@ -21,3 +21,5 @@ let favThingTwo = FavouriteThing(thingName: "Banana", thingDescription: "The sec
 let favThingThree = FavouriteThing(thingName: "Orange", thingDescription: "The third best fruit ever", thingImage: "orange", thingRanking: "#3")
 let favThingFour = FavouriteThing(thingName: "Watermelon", thingDescription: "The fourth best fruit ever", thingImage: "watermelon", thingRanking: "#4")
 let favThingFive = FavouriteThing(thingName: "Strawberry", thingDescription: "The fifth best fruit ever", thingImage: "strawberry", thingRanking: "#5")
+
+let favThings = [favThingOne, favThingTwo, favThingThree, favThingFour, favThingFive]
