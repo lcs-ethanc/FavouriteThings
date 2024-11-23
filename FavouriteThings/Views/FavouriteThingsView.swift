@@ -18,17 +18,17 @@ struct FavouriteThingsView: View {
                 VStack(alignment: .leading){
                     Text(providedFavThing.thingName)
                         .fontWeight(.bold)
-                        .font(.system(size: 40))
+                        .font(.system(size: 20))
                     Text(providedFavThing.thingDescription)
       
                 }
                 Text(providedFavThing.thingRanking)
                     .fontWeight(.bold)
-                    .font(.system(size:60))
-                    .padding(.leading,20)
-            }            .padding(.trailing,70)
+                    .font(.system(size:40))
+                    .padding(.leading,60)
+            }            .padding(.trailing,50)
             
-            .navigationTitle("My Favourite Things")
+    
         }
         
         

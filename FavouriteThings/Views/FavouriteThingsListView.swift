@@ -9,10 +9,13 @@ import SwiftUI
 
 struct FavouriteThingsListView: View {
     var body: some View {
-        List(favThings) { currentFavThing in
-            FavouriteThingsView(providedFavThing: currentFavThing)
-            
+        NavigationStack{
+            List(favThings) { currentFavThing in
+                FavouriteThingsView(providedFavThing: currentFavThing)
+                    .navigationTitle("My Favourite Things")
+            }
         }
+     
  
         }
     }
