@@ -9,9 +9,15 @@ import SwiftUI
 
 struct FavouriteThingsListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(favThings) { currentFavThing in
+            FavouriteThingsView(providedFavThing: currentFavThing)
+            
+        }
+ 
+        }
     }
-}
+
+
 
 #Preview {
     FavouriteThingsListView()
